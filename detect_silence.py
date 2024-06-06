@@ -30,7 +30,7 @@ def main():
     
     # Silence detection parameters
     silence_threshold = -30  # Silence threshold in dBFS
-    min_silence_length = 100  # Minimum silence length in milliseconds
+    min_silence_length = 500  # Minimum silence length in milliseconds
 
     # Detect silence
     silences = detect_silence_in_audio(audio_file_path, silence_thresh=silence_threshold, min_silence_len=min_silence_length)
